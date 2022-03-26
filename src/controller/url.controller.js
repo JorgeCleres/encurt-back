@@ -9,5 +9,3 @@ exports.returnUrl = async(req, res) => {
         res.status(400).json({message: 'erro', err})
     }
 }
-
-module.exports = router
